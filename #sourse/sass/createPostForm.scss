@@ -1,0 +1,69 @@
+.create-post-title {
+    margin-top: 0px;
+}
+
+.create-post-container {
+    margin: 20px auto;
+    width: 80%;
+    .error-message {
+        font-size: 1.25rem;
+    }
+}
+
+.create-post-field {
+    min-width: 100%;
+    max-width: 100%;
+
+    font-family: "Droid Sans";
+}   
+
+.create-post-image {
+    position: relative;
+    margin: 0 auto;
+    width: 786.6px;
+    height: 434px;
+    & img {
+        width: 100%;
+        height: 100%;
+        // position: absolute;
+        // width: 100%;
+        // height: 100%;
+        // object-fit: cover;
+        // top: 0;
+        // left: 0;
+    }
+}
+
+.field-title {
+    height: 50px;
+}
+
+.field-text {
+    height: 500px;
+    resize: none;
+}
+
+.field-shortDescription {
+    height: 100px;
+    resize: none;
+}
+
+.big-button {
+    width: 350px;
+}
+
+
+
+// .input{
+//     padding: 10px;
+//     min-height: 30px;
+
+//     background-color: #fff;
+//     border:2px solid #C9C9C9;
+//     transition: 0.1s linear;
+
+//     input:focus {
+//         border: 20px solid #00E0FF;
+//         background: aqua;
+//     }
+// }

@@ -1,0 +1,316 @@
+@font-face {
+    font-family: 'Droid Sans';  
+    src: url("../fonts/DroidSans.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
+     
+@font-face {
+    font-family: 'Droid Sans';
+    src: url("../fonts/DroidSans-Bold.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: bold; 
+}
+
+.showPassword {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    color: #C9C9C9;
+}
+
+.showPassword:hover {
+    cursor: pointer;
+}
+
+.password {
+    position: relative;
+}
+
+#bgColor {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #68D8D6;
+}
+
+.section-auth {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.logo {
+    margin: auto;
+    margin-right: 100px;
+}
+
+.logo img {
+    width: 550px;
+}
+
+.singin-form {
+    width: 480px;
+    height: 620px;
+
+    background-color: #fff;
+    border: 1px solid #C9C9C9;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/* FORM HEADER */
+
+.form-header {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 480px;
+
+    font-family: "Droid Sans";
+    font-weight: bold;
+    font-size: 1.5rem;
+
+    text-transform: uppercase;
+}
+
+.slide-button {
+    display: flex;
+    width: 240px;
+    height: 40px;
+
+    font-family: "Droid Sans";
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    background: rgba(236, 236, 236, 0.9);
+}
+
+.slide-button-left{
+    border-right: 1px solid #C9C9C9;
+    border-bottom: 1px solid #C9C9C9;
+    box-sizing: border-box;
+}
+
+.slide-button-left:hover {
+    border-right: 2px solid #C9C9C9;
+    border-bottom: 2px solid #C9C9C9;
+}
+
+.slide-button-right{
+    border-left: 1px solid #C9C9C9;
+    border-bottom: 1px solid #C9C9C9;
+    box-sizing: border-box;
+}
+
+.slide-button-right:hover {
+    border-left: 2px solid #C9C9C9;
+    border-bottom: 2px solid #C9C9C9;
+}
+
+.form-button {
+    margin: auto;
+    color: #454444;
+}
+
+
+
+/* FORM BODY */
+
+.form-body {
+    display: flex;
+    flex-direction: column;
+
+    font-family: "Droid Sans";
+    text-align: center;
+}
+
+.body-title {
+    margin: 82px 0 38px 0;
+
+    font-weight: bold;
+    font-size: 3rem;
+
+
+    text-align: center;
+    color: #454444;
+    text-transform: uppercase;
+}
+
+.body-title-register{
+    margin: 40px 0 30px 0;
+}
+
+.error-message {
+    margin-bottom: 10px;
+    color: rgb(255, 0, 0);
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+    width: 300px;   
+
+    font-family: "Droid Sans";
+}
+
+.input-title {
+    margin-bottom: 6px;
+
+    text-align: left;  
+
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.input-field {
+    margin-bottom: 32px;
+    height: 30px;
+    width: 100%;
+
+    font-size: 1.125rem;
+
+    border: 2px solid #C9C9C9;
+    box-sizing: border-box;
+    outline: none;
+    
+
+    transition: 0.5s;
+}
+
+.input-field:focus {
+    border: 2px solid #00E0FF;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.body-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.body-buttons button{
+    font-size: 1.125rem;
+    cursor: pointer;
+}
+
+.singin-button {
+    margin-right: 17px;
+    width: 186px;
+    height: 40px;
+
+    color: #fff;
+    background-color: #00E0FF;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    transition: 0.2s;
+}
+
+.singin-button:hover {
+    background-color:#68D8D6;
+}
+
+.back-button {
+    width: 97px;
+    height: 40px;
+
+    color: #00E0FF;
+    border: 2px solid #00E0FF;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: 0.2s;
+}
+
+.back-button:hover {
+    color: #fff;
+    background-color: #00E0FF;
+}
+
+
+
+
+/*FORM FOOTER*/
+
+.form-footer {
+    margin: 0 auto; 
+    width: 300px;
+
+    font-family: "Droid Sans";
+}
+
+.footer-title {
+    font-size: .875rem;
+
+    text-align: center;
+    color: #C9C9C9;
+}
+
+.footer-title::before {
+    display: block;
+    margin: 40px auto 6px auto;
+	width: 300px;
+	height: 1px;
+	
+	content: "";
+
+	background-color: #C9C9C9;
+}
+
+.footer-services {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.footer-services-register {
+    margin-top: 15px;
+}
+
+.service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 30px;
+
+    text-decoration: none;
+    border: 1px solid #C9C9C9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    
+    transition: 0.2s;
+}
+
+.service:hover {
+    border: 2px solid #C9C9C9;
+}
+
+.service-logo{
+    margin: 0 3px;
+    width: 20px;
+    height: 20px;
+}
+
+.service-logo img {
+    width: 20px;
+}
+
+.service-name {
+    font-size: .875rem;
+    font-weight: bold;
+
+    color: #C9C9C9;
+}
